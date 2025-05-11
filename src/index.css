@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.main_div {
+  background-image: url("./assets/background-mobile.png");
+  background-size: cover;
+}
+
+@media (min-width: 768px) and (max-width: 1440px) {
+  .main_div {
+    background-image: url("./assets/background-tablet.png");
+  }
+}
+
+@media (min-width: 1440px) {
+  .main_div {
+    background-image: url("./assets/background-desktop.png");
+  }
+}
