@@ -10,7 +10,6 @@ This is a solution to the [Conference ticket generator challenge on Frontend Men
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
