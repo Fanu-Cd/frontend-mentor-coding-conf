@@ -24,6 +24,8 @@ const FileUploader = ({
     setValue(field.key, file);
     if (["image/png", "image/jpeg"].includes(file?.type)) {
       setFilePreviewUrl(URL.createObjectURL(file));
+    } else {
+      setFilePreviewUrl("");
     }
   };
 
